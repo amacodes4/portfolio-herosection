@@ -1,0 +1,193 @@
+@import url("https://unpkg.com/swiper@7/swiper-bundle.min.css");
+
+body {
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+header, #herosection, #works {
+    padding-left: 50px;
+}
+
+h1 {
+font-family: 'Barlow Semi Condensed';
+font-size: 48px;
+font-style: Bold;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(60deg, #b16cea 20%, #ff5e69 40%, #ff8a56 65%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    display: inline-flex;
+    gap: 15px;
+    position: absolute;
+    left: 825px;
+    top: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+nav > a {
+    font-family: 'Barlow Semi Condensed';
+    text-decoration: none;
+    font-size:20px;
+    color: rgb(85, 85, 85);
+
+    
+}
+
+#hero-largeText {
+    font-family: 'Barlow Semi Condensed';
+    font-style: Bold;
+    font-size: 60px;
+    width: 700px;
+}
+
+#hero-subText {
+    font-family: 'Barlow Semi Condensed';
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+
+#hero-largeText {
+    position: relative; 
+    top: 20px;
+}
+
+#hero-subText {
+    position: relative;
+    top: -20px;
+}
+
+#heroImage {
+    position: absolute;
+    left: 840px;
+    top: 132px;
+}
+
+#heroImage {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(78%);
+    border-radius: 15px;
+}
+
+
+
+/* HERO BUTTON CSS */
+
+.primary-btn {
+    align-items: center;
+    background-color: #111;
+    border: 2px solid #111;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color:white;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Barlow Semi Condensed';
+    font-size: 16px;
+    height: 68px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .primary-btn:after {
+    background:  -webkit-linear-gradient(60deg, #b16cea 20%, #ff5e69 40%, #ff8a56 65%, #ffa84b 91%);;
+    border-radius: 0px;
+    content: "";
+    display: block;
+    height: 68px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .primary-btn:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .primary-btn:active {
+    background-color: #ffdeda;
+    outline: 0;
+  }
+  
+  .primary-btn:hover {
+    outline: 0;
+}
+  
+  @media (min-width: 768px) {
+    .primary-btn {
+      padding: 0 40px;
+    }
+  }
+
+  .text-btn {
+      font-family: 'Barlow Semi Condensed';
+      font-size: 20px;
+      font-weight: 300;
+      position: relative;
+      left: 200px;
+      top: -40px;
+      border: none;
+      background: none;
+  }
+
+ .section-subtitle {
+      font-family: 'Barlow Semi Condensed';
+      font-size: 20px;
+      font-weight: 400;
+      padding: 10px;
+      position: relative;
+      left: 635px;
+      top: 17px;
+      color:rgb(85, 85, 85);
+ }
+
+ #brand-logo {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      position: relative;
+      left: 500px;
+      top: 22px;
+ }
+
+ .brand-logo {
+      width: 100px;
+      height: 40px;
+ }
+
+ .section-title {
+      display: block;
+      padding: 15px;
+      padding-bottom: 0;
+      font-size: 30px;
+      font-family: 'Barlow Semi Condensed';
+      font-weight: 600;
+      color:rgb(85, 85, 85);
+}
+
+ 
+  .material-icons {
+    position: relative;
+    top: 5px;
+  }
+  
+  
+  
